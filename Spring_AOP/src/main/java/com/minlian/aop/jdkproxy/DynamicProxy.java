@@ -24,7 +24,7 @@ public class DynamicProxy implements InvocationHandler {
         return obj;
     }
 
-    @SuppressWarnings("unchecked")
+    //获取被代理接口实例对象
     public <T> T getProxy() {
         return (T) Proxy.newProxyInstance(
                 target.getClass().getClassLoader(),
