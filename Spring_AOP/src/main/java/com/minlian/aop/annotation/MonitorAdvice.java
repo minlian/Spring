@@ -1,6 +1,6 @@
-package com.deanwangpro.aop.annotation;
+package com.minlian.aop.annotation;
 
-import com.deanwangpro.aop.monitor.MonitorSession;
+import com.minlian.aop.monitor.MonitorSession;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MonitorAdvice {
 
-    @Pointcut("execution (* com.deanwangpro.aop.service.Speakable.*(..))")
+    @Pointcut("execution (* com.minlian.aop.service.Speakable.*(..))")
     public void pointcut() {
     }
 

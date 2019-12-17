@@ -1,6 +1,6 @@
-package com.deanwangpro.aop.jdkproxy;
+package com.minlian.aop.jdkproxy;
 
-import com.deanwangpro.aop.monitor.MonitorSession;
+import com.minlian.aop.monitor.MonitorSession;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

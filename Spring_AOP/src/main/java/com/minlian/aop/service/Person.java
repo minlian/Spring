@@ -1,4 +1,4 @@
-package com.deanwangpro.aop.service;
+package com.minlian.aop.service;
 
 /**
  * Created by i311609 on 08/02/2017.

@@ -1,10 +1,10 @@
-package com.deanwangpro.aop;
+package com.minlian.aop;
 
-import com.deanwangpro.aop.cglib.CGLibProxy;
-import com.deanwangpro.aop.jdkproxy.DynamicProxy;
-import com.deanwangpro.aop.service.Person;
-import com.deanwangpro.aop.service.PersonImpl;
-import com.deanwangpro.aop.service.Speakable;
+import com.minlian.aop.cglib.CGLibProxy;
+import com.minlian.aop.jdkproxy.DynamicProxy;
+import com.minlian.aop.service.Person;
+import com.minlian.aop.service.PersonImpl;
+import com.minlian.aop.service.Speakable;
 
 
 public class PersonProxyFactory {

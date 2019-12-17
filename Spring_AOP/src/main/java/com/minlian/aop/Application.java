@@ -1,7 +1,7 @@
-package com.deanwangpro.aop;
+package com.minlian.aop;
 
-import com.deanwangpro.aop.service.Person;
-import com.deanwangpro.aop.service.Speakable;
+import com.minlian.aop.service.Person;
+import com.minlian.aop.service.Speakable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

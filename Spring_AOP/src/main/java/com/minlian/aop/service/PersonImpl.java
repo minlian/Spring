@@ -1,12 +1,9 @@
-package com.deanwangpro.aop.service;
-
-import org.springframework.stereotype.Service;
+package com.minlian.aop.service;
 
 /**
  * Created by i311609 on 08/02/2017.
  */
-@Service
-public class PersonSpring implements Speakable {
+public class PersonImpl implements Speakable {
 
     @Override
     public void sayHi() {

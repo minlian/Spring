@@ -1,6 +1,6 @@
-package com.deanwangpro.aop.cglib;
+package com.minlian.aop.cglib;
 
-import com.deanwangpro.aop.monitor.MonitorSession;
+import com.minlian.aop.monitor.MonitorSession;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
