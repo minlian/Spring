@@ -1,8 +1,6 @@
 package com.deanwangpro.aop.monitor;
 
-/**
- * Created by i311609 on 08/02/2017.
- */
+
 public class MonitorSession {
 
     private static ThreadLocal<MethodMonitor> monitorThreadLocal = new ThreadLocal<>();

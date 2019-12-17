@@ -7,9 +7,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
-/**
- * Created by i311609 on 08/02/2017.
- */
+
 public class CGLibProxy implements MethodInterceptor {
 
     private static CGLibProxy instance = new CGLibProxy();
